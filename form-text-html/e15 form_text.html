@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+ <form>
+
+
+     <table border="3" align="center" cellspacing="2" cellpadding="3">
+
+     <tr>
+         <td colspan="2" align="center"> <h3>Üye Kayıt</h3> </td>
+     </tr>
+
+     <tr>
+         <td>Adı</td>
+         <td><input type="text" name="adi" id="adi"></td>
+     </tr>
+
+     <tr>
+         <td>Soyadı</td>
+         <td><input type="text" name="soyadi" id="soyadi" ></td>
+     </tr>
+
+     <tr>
+        <td>Cinsiyet</td>
+        <td>
+            <input type="radio" name="cinsiyet" id="erkek">Erkek
+            <input type="radio" name="cinsiyet" id="kadin">Kadın   <!--Namelerini aynı yazmazsak hem erkek hem de kadın seçilebilir-->
+        </td>
+     </tr>
+
+     <tr>
+         <td>Telefon</td>
+         <td><input type="number" name="telefon" id="telefon"></td>
+     </tr>
+
+     <tr>
+         <td>Tc Kimlik No</td>
+         <td><input type="number" name="tckimlikno" id="tckimlikno"></td>
+     </tr>
+
+     <tr>
+         <td>E-posta:</td>
+         <td><input type="email" name="E-posta" id="E-posta"></td>
+     </tr>
+
+     <tr>
+        <td>Eğitim Durumu</td>
+        <td>
+            <select name="egitimdurum" id="egitimdurum">
+                <option value="1">İlköğretim</option>
+                <option value="2">Ortaokul</option>
+                <option value="3">Lise</option>
+                <option value="4">Önlisans</option>
+                <option value="5">Lisans</option>
+                <option value="6">Master</option>
+            </select>
+        </td>
+     </tr>
+
+     <tr>
+         <td>Doğum Tarihi</td>
+         <td><input type="date" name="dogum tarihi" id="dogum tarihi"></td>
+     </tr>
+
+     <tr>
+        <td>Favori Renginiz</td>
+        <td>
+            <input type="color" name="renk" id="renk">
+        </td>
+     </tr>
+
+     <tr>
+        <td>İşe Giriş Tarihi</td>
+        <td>
+            <input type="datetime" name="tarihzaman" id="tarihzaman">
+        </td>
+     </tr>
+
+     <tr>
+        <td>Doğum Yeri</td>
+        <td>
+             <select name="dogum yeri">
+                <option>Seçiniz</option>
+                <option>Ankara</option>
+                <option>İstanbul</option>
+                <option>İzmir</option>
+                <option value="23">Antalya</option>
+             </select>
+        </td>
+
+     </tr>
+
+     <tr>
+        <td>Hobileriniz</td>
+        <td>
+          <input type="checkbox" name="Kitap" id=""> Kitap <br>
+          <input type="checkbox" name="Müzik" id=""> Müzik <br>
+          <input type="checkbox" name="spor" id=""> Spor <br>
+        </td>
+     </tr>
+
+     <tr>
+      <td>Özgeçmişiniz</td> 
+      <td>
+    
+        <textarea rows="5" cols="40">...</textarea>
+      </td> 
+     </tr>
+
+     <tr>
+         <td colspan="2" align="right">
+      <!--   <input type="submit" value="kaydet"  ->     (alttakiyle aynı işe yarıyor) --> 
+         <button type="submit">kaydet</button>
+         </td>
+    </tr>
+
+     </table>
+
+ </form>   
+
+</body>
+
+</html>
